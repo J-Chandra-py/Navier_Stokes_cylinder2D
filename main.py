@@ -10,6 +10,7 @@ from optimizer import L_BFGS_B
 
 
 
+# continuity constraint on u and v
 def mass_cons(network, xy):
     """
     Compute u_x and v_y
@@ -34,6 +35,7 @@ def mass_cons(network, xy):
 
     return u_x.numpy(), v_y.numpy()
 
+# imitate flow behavior at pipe inlet, zero at edges & max around center
 def u_0(xy):
     """
     Initial wave form.
@@ -242,6 +244,7 @@ if __name__ == '__main__':
 
     ############################ 
 
+    # create x,y data for preditcing u,v,p and plotting test results
     x = np.linspace(0.3, 1, num_test_samples)
     y = np.linspace(0.3, 0.7, num_test_samples)
     x, y = np.meshgrid(x, y)
@@ -255,6 +258,7 @@ if __name__ == '__main__':
     p = p.reshape(x.shape)
     # plot test results
     
+    # use contour pre-defined fuction for plotting predictions
     fig = plt.figure(figsize=(15, 8))
     #contour(gs[0, 0], x, y, psi, 'psi')
     contour(x, y, p, 'p')
