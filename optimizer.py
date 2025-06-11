@@ -40,6 +40,7 @@ class L_BFGS_B:
         self.maxls = maxls
         self.maxiter = maxiter
         self.metrics = ['loss']
+        self.loss_history = []  # Custom list to store loss values
         # initialize the progress bar
         self.progbar = tf.keras.callbacks.ProgbarLogger(
             count_mode='steps', stateful_metrics=self.metrics)
@@ -74,7 +75,10 @@ class L_BFGS_B:
         """
 
         with tf.GradientTape() as g:
+            # LOSS FUNCTION IS SPECIFIED HERE:
             loss = tf.reduce_mean(tf.keras.losses.logcosh(self.model(x), y))
+            # To use MSE instead, use:
+            # loss = tf.reduce_mean(tf.keras.losses.mean_squared_error(self.model(x), y))
         grads = g.gradient(loss, self.model.trainable_variables)
         return loss, grads
 
@@ -99,12 +103,13 @@ class L_BFGS_B:
 
     def callback(self, weights):
         """
-        Callback that prints the progress to stdout.
+        Callback that records the loss for each iteration.
         Args:
             weights: flatten weights.
         """
         self.progbar.on_batch_begin(0)
         loss, _ = self.evaluate(weights)
+        self.loss_history.append(loss)  # Store the loss in the custom list
         self.progbar.on_batch_end(0, logs=dict(zip(self.metrics, [loss])))
 
     def fit(self):

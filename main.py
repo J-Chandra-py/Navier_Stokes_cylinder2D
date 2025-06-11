@@ -168,6 +168,16 @@ if __name__ == '__main__':
     lbfgs = L_BFGS_B(model=pinn, x_train=x_train, y_train=y_train)
     lbfgs.fit()
 
+    # Plot the loss curve
+    # plt.figure(figsize=(10, 6))
+    # plt.plot(range(len(lbfgs.loss_history)), lbfgs.loss_history, label='Loss')
+    # plt.xlabel('Iterations')
+    # plt.ylabel('Loss')
+    # plt.title('Loss vs. Iterations')
+    # plt.legend()
+    # plt.grid()
+    # plt.show()
+
     # create meshgrid coordinates (x, y) for test plots    
 
     x = np.linspace(x_ini, x_f, num_test_samples)
