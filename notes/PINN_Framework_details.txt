@@ -1,0 +1,39 @@
+Network default build:
+    num of input variables: 2 (x,y)
+    num of output variables: 1 (u, v, p)
+    num of hidden layers: [48, 48, 48, 48]
+    activation function: tanh
+
+
+
+
+
+
+
+
+Gradient Layer to compute the gradients of the Navier-Stokes equation
+    input variable: 1 (xy)
+    output variables: 
+        p_grads = p, p_x, p_y
+        u_grads = u, u_x, u_y, u_xx, u_yy
+        v_grads = v, v_x, v_y, v_xx, v_yy
+
+
+
+
+
+
+
+
+PINN model:
+    Attributes:
+        network: keras network model with input (x, y) and output (u, v, p).
+        rho: density.
+        nu: viscosity.
+        grads: gradient layer.
+
+    Equation Loss w.r.t NS equation:
+        u_eqn =  u*u_x + v*u_y + p_x/rho - .mu*(u_xx + u_yy) / rho
+        v_eqn =  u*v_x + v*v_y + p_y/rho - .mu*(v_xx + v_yy) / rho
+        uv_eqn = u_x + v_y
+        uv_eqn = tf.concat([u_eqn, v_eqn, uv_eqn], axis=-1)
