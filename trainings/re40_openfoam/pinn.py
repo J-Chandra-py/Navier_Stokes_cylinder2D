@@ -37,6 +37,8 @@ class PINN:
                           (u, v) relative to boundary condition ]
         """
 
+        # openfoam inputs
+        xy_of = tf.keras.layers.Input(shape=(2,))
         # equation input: (x, y)
         xy_eqn = tf.keras.layers.Input(shape=(2,))
         # boundary condition
@@ -45,6 +47,10 @@ class PINN:
         xy_w1 = tf.keras.layers.Input(shape=(2,))
         xy_w2 = tf.keras.layers.Input(shape=(2,))
         xy_circle = tf.keras.layers.Input(shape=(2,))
+
+        # compute outputs relative to openfoam inputs
+        p_of, u_of, v_of = self.grads(xy_of)
+        uv_of = tf.concat([u_of[0], v_of[0], p_of[0]], axis=-1)
 
         # compute gradients relative to equation
         p_grads, u_grads, v_grads = self.grads(xy_eqn)
@@ -75,6 +81,6 @@ class PINN:
 
         # build the PINN model for the steady Navier-Stokes equation
         return tf.keras.models.Model(
-            inputs=[xy_eqn, xy_w1, xy_w2, xy_out, xy_in, xy_circle], outputs=[uv_eqn, uv_in, uv_out, uv_w1, uv_w2, uv_circle]) # tensor order w.r.t original code
+            inputs=[xy_of, xy_eqn, xy_w1, xy_w2, xy_out, xy_in, xy_circle], outputs=[uv_of, uv_eqn, uv_in, uv_out, uv_w1, uv_w2, uv_circle]) # tensor order w.r.t original code
             # inputs=[xy_eqn, xy_in, xy_out, xy_w1, xy_w2, xy_circle], outputs=[uv_eqn, uv_in, uv_out, uv_w1, uv_w2, uv_circle]) # order that makes sense ??   x
             # inputs=[xy_eqn, xy_w1, xy_w2, xy_out, xy_in, xy_circle], outputs=[uv_eqn, uv_w1, uv_w2, uv_out, uv_in, uv_circle]) # order that makes sense ??   y
