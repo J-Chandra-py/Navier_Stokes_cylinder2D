@@ -43,6 +43,9 @@ class L_BFGS_B:
         self.metrics = ['loss']
         self.loss_history = []  # Custom list to store loss values
         self.individual_loss_history = []  # Custom list to store component losses
+        self.smoothed_losses = None  # for exponential moving average
+        self.alpha = 0.3  # smoothing factor
+        self.weight_clip = (0.05, 0.5)  # clip weights between these values
         # Add loss_weights
         if loss_weights is None:
             self.loss_weights = [1.0] * len(self.x_train)
@@ -65,6 +68,39 @@ class L_BFGS_B:
             for from_id, to_id, shape in zip(split_ids[:-1], split_ids[1:], shapes) ]
         # set weights to the model
         self.model.set_weights(weights)
+
+    def update_loss_weights(self):
+        """
+        Robust dynamic weighting:
+        - smooths recent losses with EMA
+        - computes inverse magnitude weights
+        - clips weights to prevent instability
+        """
+        if not self.individual_loss_history:
+            return
+
+        recent_losses = np.array(self.individual_loss_history[-1])
+        recent_losses = np.clip(recent_losses, 1e-8, None)  # avoid div by zero
+
+        if self.smoothed_losses is None:
+            self.smoothed_losses = recent_losses
+        else:
+            self.smoothed_losses = (
+                self.alpha * recent_losses + (1 - self.alpha) * self.smoothed_losses
+            )
+
+        inv_losses = 1.0 / self.smoothed_losses
+        weights = inv_losses / np.sum(inv_losses)
+
+        # Clip to avoid overemphasis
+        min_w, max_w = self.weight_clip
+        weights = np.clip(weights, min_w, max_w)
+
+        # Normalize again after clipping
+        weights /= np.sum(weights)
+
+        self.loss_weights = weights.tolist()
+        print(f"[Loss Weights Updated] {np.round(self.loss_weights, 4)}")
 
     @tf.function
     def tf_evaluate(self, x, y):
@@ -102,6 +138,11 @@ class L_BFGS_B:
         loss, _, individual_losses = self.evaluate(weights)
         self.loss_history.append(loss)
         self.individual_loss_history.append(individual_losses)
+
+        # Rebalance every 50 iterations (adjustable)
+        if len(self.loss_history) % 50 == 0:
+            self.update_loss_weights()
+
 
     def fit(self):
         """
