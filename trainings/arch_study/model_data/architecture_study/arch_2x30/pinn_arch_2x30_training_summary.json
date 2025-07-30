@@ -1,0 +1,16 @@
+{
+  "architecture": [
+    30,
+    30
+  ],
+  "architecture_name": "arch_2x30",
+  "total_parameters": 1113,
+  "final_loss": 0.039893440902233124,
+  "min_u_wake": -0.02139139175415039,
+  "model_filename": "model_data/architecture_study/arch_2x30/pinn_arch_2x30.keras",
+  "u_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_u.png",
+  "v_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_v.png",
+  "p_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_p.png",
+  "streamline_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_streamlines.png",
+  "optimization_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_optimization.png"
+}

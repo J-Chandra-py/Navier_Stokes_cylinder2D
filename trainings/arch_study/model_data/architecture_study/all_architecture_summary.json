@@ -1,0 +1,139 @@
+[
+  {
+    "architecture": [
+      20,
+      20
+    ],
+    "architecture_name": "arch_2x20",
+    "total_parameters": 543,
+    "final_loss": 0.044330041855573654,
+    "min_u_wake": -0.0062412964180111885,
+    "model_filename": "model_data/architecture_study/arch_2x20/pinn_arch_2x20.keras",
+    "u_plot": "model_data/architecture_study/arch_2x20/plots/pinn_arch_2x20_u.png",
+    "v_plot": "model_data/architecture_study/arch_2x20/plots/pinn_arch_2x20_v.png",
+    "p_plot": "model_data/architecture_study/arch_2x20/plots/pinn_arch_2x20_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_2x20/plots/pinn_arch_2x20_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_2x20/plots/pinn_arch_2x20_optimization.png"
+  },
+  {
+    "architecture": [
+      30,
+      30
+    ],
+    "architecture_name": "arch_2x30",
+    "total_parameters": 1113,
+    "final_loss": 0.039893440902233124,
+    "min_u_wake": -0.02139139175415039,
+    "model_filename": "model_data/architecture_study/arch_2x30/pinn_arch_2x30.keras",
+    "u_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_u.png",
+    "v_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_v.png",
+    "p_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_2x30/plots/pinn_arch_2x30_optimization.png"
+  },
+  {
+    "architecture": [
+      48,
+      48,
+      48,
+      48
+    ],
+    "architecture_name": "arch_4x48",
+    "total_parameters": 7347,
+    "final_loss": 0.029271423816680908,
+    "min_u_wake": -0.001627230318263173,
+    "model_filename": "model_data/architecture_study/arch_4x48/pinn_arch_4x48.keras",
+    "u_plot": "model_data/architecture_study/arch_4x48/plots/pinn_arch_4x48_u.png",
+    "v_plot": "model_data/architecture_study/arch_4x48/plots/pinn_arch_4x48_v.png",
+    "p_plot": "model_data/architecture_study/arch_4x48/plots/pinn_arch_4x48_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_4x48/plots/pinn_arch_4x48_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_4x48/plots/pinn_arch_4x48_optimization.png"
+  },
+  {
+    "architecture": [
+      64,
+      64,
+      64
+    ],
+    "architecture_name": "arch_3x64",
+    "total_parameters": 8707,
+    "final_loss": 0.02929931879043579,
+    "min_u_wake": -0.0014901570975780487,
+    "model_filename": "model_data/architecture_study/arch_3x64/pinn_arch_3x64.keras",
+    "u_plot": "model_data/architecture_study/arch_3x64/plots/pinn_arch_3x64_u.png",
+    "v_plot": "model_data/architecture_study/arch_3x64/plots/pinn_arch_3x64_v.png",
+    "p_plot": "model_data/architecture_study/arch_3x64/plots/pinn_arch_3x64_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_3x64/plots/pinn_arch_3x64_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_3x64/plots/pinn_arch_3x64_optimization.png"
+  },
+  {
+    "architecture": [
+      100,
+      100
+    ],
+    "architecture_name": "arch_2x100",
+    "total_parameters": 10703,
+    "final_loss": 0.04648546129465103,
+    "min_u_wake": -0.009871602058410645,
+    "model_filename": "model_data/architecture_study/arch_2x100/pinn_arch_2x100.keras",
+    "u_plot": "model_data/architecture_study/arch_2x100/plots/pinn_arch_2x100_u.png",
+    "v_plot": "model_data/architecture_study/arch_2x100/plots/pinn_arch_2x100_v.png",
+    "p_plot": "model_data/architecture_study/arch_2x100/plots/pinn_arch_2x100_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_2x100/plots/pinn_arch_2x100_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_2x100/plots/pinn_arch_2x100_optimization.png"
+  },
+  {
+    "architecture": [
+      80,
+      80,
+      80,
+      80,
+      80
+    ],
+    "architecture_name": "arch_5x80",
+    "total_parameters": 26403,
+    "final_loss": 0.02908094972372055,
+    "min_u_wake": -0.002504020929336548,
+    "model_filename": "model_data/architecture_study/arch_5x80/pinn_arch_5x80.keras",
+    "u_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_u.png",
+    "v_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_v.png",
+    "p_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_optimization.png"
+  },
+  {
+    "architecture": [
+      128,
+      64,
+      32
+    ],
+    "architecture_name": "arch_pyramid_128_64_32",
+    "total_parameters": 10819,
+    "final_loss": 0.029934724792838097,
+    "min_u_wake": -0.0042123943567276,
+    "model_filename": "model_data/architecture_study/arch_pyramid_128_64_32/pinn_arch_pyramid_128_64_32.keras",
+    "u_plot": "model_data/architecture_study/arch_pyramid_128_64_32/plots/pinn_arch_pyramid_128_64_32_u.png",
+    "v_plot": "model_data/architecture_study/arch_pyramid_128_64_32/plots/pinn_arch_pyramid_128_64_32_v.png",
+    "p_plot": "model_data/architecture_study/arch_pyramid_128_64_32/plots/pinn_arch_pyramid_128_64_32_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_pyramid_128_64_32/plots/pinn_arch_pyramid_128_64_32_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_pyramid_128_64_32/plots/pinn_arch_pyramid_128_64_32_optimization.png"
+  },
+  {
+    "architecture": [
+      50,
+      100,
+      100,
+      50
+    ],
+    "architecture_name": "arch_diamond_50_100_100_50",
+    "total_parameters": 20553,
+    "final_loss": 0.029168251901865005,
+    "min_u_wake": -0.003810882568359375,
+    "model_filename": "model_data/architecture_study/arch_diamond_50_100_100_50/pinn_arch_diamond_50_100_100_50.keras",
+    "u_plot": "model_data/architecture_study/arch_diamond_50_100_100_50/plots/pinn_arch_diamond_50_100_100_50_u.png",
+    "v_plot": "model_data/architecture_study/arch_diamond_50_100_100_50/plots/pinn_arch_diamond_50_100_100_50_v.png",
+    "p_plot": "model_data/architecture_study/arch_diamond_50_100_100_50/plots/pinn_arch_diamond_50_100_100_50_p.png",
+    "streamline_plot": "model_data/architecture_study/arch_diamond_50_100_100_50/plots/pinn_arch_diamond_50_100_100_50_streamlines.png",
+    "optimization_plot": "model_data/architecture_study/arch_diamond_50_100_100_50/plots/pinn_arch_diamond_50_100_100_50_optimization.png"
+  }
+]

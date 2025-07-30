@@ -1,0 +1,19 @@
+{
+  "architecture": [
+    80,
+    80,
+    80,
+    80,
+    80
+  ],
+  "architecture_name": "arch_5x80",
+  "total_parameters": 26403,
+  "final_loss": 0.02908094972372055,
+  "min_u_wake": -0.002504020929336548,
+  "model_filename": "model_data/architecture_study/arch_5x80/pinn_arch_5x80.keras",
+  "u_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_u.png",
+  "v_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_v.png",
+  "p_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_p.png",
+  "streamline_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_streamlines.png",
+  "optimization_plot": "model_data/architecture_study/arch_5x80/plots/pinn_arch_5x80_optimization.png"
+}
