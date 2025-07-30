@@ -1,0 +1,62 @@
+[
+  {
+    "loss_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      10.0
+    ],
+    "final_loss": 0.029199985787272453,
+    "min_u_wake": -0.004315584897994995,
+    "model_filename": "model_data/track_sep_losses/cyl10/implicit_noroi_LC_cyl10.keras",
+    "u_plot": "model_data/track_sep_losses/cyl10/plots/implicit_noroi_LC_cyl10_u.png",
+    "streamline_plot": "model_data/track_sep_losses/cyl10/plots/implicit_noroi_LC_cyl10_streamlines.png"
+  },
+  {
+    "loss_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      20.0
+    ],
+    "final_loss": 0.02910279855132103,
+    "min_u_wake": -0.002651914954185486,
+    "model_filename": "model_data/track_sep_losses/cyl20/implicit_noroi_LC_cyl20.keras",
+    "u_plot": "model_data/track_sep_losses/cyl20/plots/implicit_noroi_LC_cyl20_u.png",
+    "streamline_plot": "model_data/track_sep_losses/cyl20/plots/implicit_noroi_LC_cyl20_streamlines.png"
+  },
+  {
+    "loss_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      30.0
+    ],
+    "final_loss": 0.02944175712764263,
+    "min_u_wake": -0.0019070133566856384,
+    "model_filename": "model_data/track_sep_losses/cyl30/implicit_noroi_LC_cyl30.keras",
+    "u_plot": "model_data/track_sep_losses/cyl30/plots/implicit_noroi_LC_cyl30_u.png",
+    "streamline_plot": "model_data/track_sep_losses/cyl30/plots/implicit_noroi_LC_cyl30_streamlines.png"
+  },
+  {
+    "loss_weights": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      60.0
+    ],
+    "final_loss": 0.02978292666375637,
+    "min_u_wake": -0.002244517207145691,
+    "model_filename": "model_data/track_sep_losses/cyl60/implicit_noroi_LC_cyl60.keras",
+    "u_plot": "model_data/track_sep_losses/cyl60/plots/implicit_noroi_LC_cyl60_u.png",
+    "streamline_plot": "model_data/track_sep_losses/cyl60/plots/implicit_noroi_LC_cyl60_streamlines.png"
+  }
+]
