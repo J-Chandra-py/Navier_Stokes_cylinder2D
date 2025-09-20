@@ -1,0 +1,44 @@
+[
+  {
+    "final_loss": 0.0055877817794680595,
+    "min_u_wake": 0.004451476037502289,
+    "model_filename": "model_data/Re_10.keras",
+    "u_plot": "model_data/Re_10_u.png",
+    "streamline_plot": "model_data/Re_10_streamlines.png"
+  },
+  {
+    "final_loss": 0.004992007743567228,
+    "min_u_wake": -0.008729711174964905,
+    "model_filename": "model_data/Re_20.keras",
+    "u_plot": "model_data/Re_20_u.png",
+    "streamline_plot": "model_data/Re_20_streamlines.png"
+  },
+  {
+    "final_loss": 0.004985052160918713,
+    "min_u_wake": 4.244595766067505e-05,
+    "model_filename": "model_data/Re_40.keras",
+    "u_plot": "model_data/Re_40_u.png",
+    "streamline_plot": "model_data/Re_40_streamlines.png"
+  },
+  {
+    "final_loss": 0.004985228180885315,
+    "min_u_wake": -0.020675480365753174,
+    "model_filename": "model_data/Re_100.keras",
+    "u_plot": "model_data/Re_100_u.png",
+    "streamline_plot": "model_data/Re_100_streamlines.png"
+  },
+  {
+    "final_loss": 0.004948821850121021,
+    "min_u_wake": -0.12931354343891144,
+    "model_filename": "model_data/Re_500.keras",
+    "u_plot": "model_data/Re_500_u.png",
+    "streamline_plot": "model_data/Re_500_streamlines.png"
+  },
+  {
+    "final_loss": 0.0049755466170609,
+    "min_u_wake": -0.14237481355667114,
+    "model_filename": "model_data/Re_1000.keras",
+    "u_plot": "model_data/Re_1000_u.png",
+    "streamline_plot": "model_data/Re_1000_streamlines.png"
+  }
+]
