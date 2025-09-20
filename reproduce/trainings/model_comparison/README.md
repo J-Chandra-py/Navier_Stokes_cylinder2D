@@ -12,3 +12,6 @@ This folder contains results and visualizations for comparing different trained 
 ## Notes
 - No training scripts or optimizers are present here; this folder is for results only.
 - Useful for summarizing and presenting model comparison outcomes.
+
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D

@@ -17,3 +17,6 @@ This folder contains scripts and notebooks for exploring different neural networ
 ## Notes
 - Results and models are saved in `model_data/`.
 - Useful for comparing the effect of architecture choices on PINN performance.
+
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D

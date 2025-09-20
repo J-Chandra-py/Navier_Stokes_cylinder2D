@@ -16,3 +16,5 @@ This folder contains scripts and notebooks for systematic grid search over hyper
 ## Notes
 - Results and loss trails are saved in `losstrails/`.
 - Useful for identifying optimal hyperparameters for PINN models.
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D

@@ -23,3 +23,6 @@ This folder contains scripts and notebooks for studying the effect of different 
 ## Notes
 - Results and metrics are saved in `losswght_trails/`.
 - Useful for understanding the impact of loss weighting on PINN performance.
+
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D

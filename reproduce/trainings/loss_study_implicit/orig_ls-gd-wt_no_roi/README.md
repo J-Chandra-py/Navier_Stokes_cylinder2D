@@ -14,3 +14,6 @@ This folder is for experiments on implicit loss weighting strategies in PINN tra
 ## Notes
 - Results are saved in the corresponding experiment subfolders.
 - Useful for advanced studies on loss weighting in PINNs.
+
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D

@@ -16,3 +16,6 @@ The SIREN activation function in `network.py` applies a scaled sine transformati
 ## Notes
 - Results and models are saved in the corresponding subfolders.
 - Useful for studying the effect of SIREN architectures on PINN performance.
+
+## Reference
+- The origin repository and base code for all PINN trainings in this folder are from https://github.com/AdrianDario10/Navier_Stokes_cylinder2D
