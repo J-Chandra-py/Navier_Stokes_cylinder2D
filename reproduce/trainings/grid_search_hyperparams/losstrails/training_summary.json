@@ -1,0 +1,218 @@
+[
+  {
+    "factr": 1000.0,
+    "m": 20,
+    "maxls": 20,
+    "final_loss": 0.10919863730669022,
+    "model_filename": "losstrails/model_m20_ls20_f1000.keras",
+    "loss_filename": "losstrails/loss_m20_ls20_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 20,
+    "maxls": 30,
+    "final_loss": 0.10916750133037567,
+    "model_filename": "losstrails/model_m20_ls30_f1000.keras",
+    "loss_filename": "losstrails/loss_m20_ls30_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 20,
+    "maxls": 50,
+    "final_loss": 0.10948416590690613,
+    "model_filename": "losstrails/model_m20_ls50_f1000.keras",
+    "loss_filename": "losstrails/loss_m20_ls50_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 30,
+    "maxls": 20,
+    "final_loss": 0.10938704013824463,
+    "model_filename": "losstrails/model_m30_ls20_f1000.keras",
+    "loss_filename": "losstrails/loss_m30_ls20_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 30,
+    "maxls": 30,
+    "final_loss": 0.10896472632884979,
+    "model_filename": "losstrails/model_m30_ls30_f1000.keras",
+    "loss_filename": "losstrails/loss_m30_ls30_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 30,
+    "maxls": 50,
+    "final_loss": 0.10984160751104355,
+    "model_filename": "losstrails/model_m30_ls50_f1000.keras",
+    "loss_filename": "losstrails/loss_m30_ls50_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 50,
+    "maxls": 20,
+    "final_loss": 0.10903054475784302,
+    "model_filename": "losstrails/model_m50_ls20_f1000.keras",
+    "loss_filename": "losstrails/loss_m50_ls20_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 50,
+    "maxls": 30,
+    "final_loss": 0.10904047638177872,
+    "model_filename": "losstrails/model_m50_ls30_f1000.keras",
+    "loss_filename": "losstrails/loss_m50_ls30_f1000.json"
+  },
+  {
+    "factr": 1000.0,
+    "m": 50,
+    "maxls": 50,
+    "final_loss": 0.10908441245555878,
+    "model_filename": "losstrails/model_m50_ls50_f1000.keras",
+    "loss_filename": "losstrails/loss_m50_ls50_f1000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 20,
+    "maxls": 20,
+    "final_loss": 0.10902535915374756,
+    "model_filename": "losstrails/model_m20_ls20_f100000.keras",
+    "loss_filename": "losstrails/loss_m20_ls20_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 20,
+    "maxls": 30,
+    "final_loss": 0.10922567546367645,
+    "model_filename": "losstrails/model_m20_ls30_f100000.keras",
+    "loss_filename": "losstrails/loss_m20_ls30_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 20,
+    "maxls": 50,
+    "final_loss": 0.10914113372564316,
+    "model_filename": "losstrails/model_m20_ls50_f100000.keras",
+    "loss_filename": "losstrails/loss_m20_ls50_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 30,
+    "maxls": 20,
+    "final_loss": 0.10905958712100983,
+    "model_filename": "losstrails/model_m30_ls20_f100000.keras",
+    "loss_filename": "losstrails/loss_m30_ls20_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 30,
+    "maxls": 30,
+    "final_loss": 0.10917386412620544,
+    "model_filename": "losstrails/model_m30_ls30_f100000.keras",
+    "loss_filename": "losstrails/loss_m30_ls30_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 30,
+    "maxls": 50,
+    "final_loss": 0.10914899408817291,
+    "model_filename": "losstrails/model_m30_ls50_f100000.keras",
+    "loss_filename": "losstrails/loss_m30_ls50_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 50,
+    "maxls": 20,
+    "final_loss": 0.10927318036556244,
+    "model_filename": "losstrails/model_m50_ls20_f100000.keras",
+    "loss_filename": "losstrails/loss_m50_ls20_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 50,
+    "maxls": 30,
+    "final_loss": 0.10902497172355652,
+    "model_filename": "losstrails/model_m50_ls30_f100000.keras",
+    "loss_filename": "losstrails/loss_m50_ls30_f100000.json"
+  },
+  {
+    "factr": 100000.0,
+    "m": 50,
+    "maxls": 50,
+    "final_loss": 0.10897885262966156,
+    "model_filename": "losstrails/model_m50_ls50_f100000.keras",
+    "loss_filename": "losstrails/loss_m50_ls50_f100000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 20,
+    "maxls": 20,
+    "final_loss": 0.10899893939495087,
+    "model_filename": "losstrails/model_m20_ls20_f10000000.keras",
+    "loss_filename": "losstrails/loss_m20_ls20_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 20,
+    "maxls": 30,
+    "final_loss": 0.10913234949111938,
+    "model_filename": "losstrails/model_m20_ls30_f10000000.keras",
+    "loss_filename": "losstrails/loss_m20_ls30_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 20,
+    "maxls": 50,
+    "final_loss": 0.10939191281795502,
+    "model_filename": "losstrails/model_m20_ls50_f10000000.keras",
+    "loss_filename": "losstrails/loss_m20_ls50_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 30,
+    "maxls": 20,
+    "final_loss": 0.10916858911514282,
+    "model_filename": "losstrails/model_m30_ls20_f10000000.keras",
+    "loss_filename": "losstrails/loss_m30_ls20_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 30,
+    "maxls": 30,
+    "final_loss": 0.10899855196475983,
+    "model_filename": "losstrails/model_m30_ls30_f10000000.keras",
+    "loss_filename": "losstrails/loss_m30_ls30_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 30,
+    "maxls": 50,
+    "final_loss": 0.10912014544010162,
+    "model_filename": "losstrails/model_m30_ls50_f10000000.keras",
+    "loss_filename": "losstrails/loss_m30_ls50_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 50,
+    "maxls": 20,
+    "final_loss": 0.10918683558702469,
+    "model_filename": "losstrails/model_m50_ls20_f10000000.keras",
+    "loss_filename": "losstrails/loss_m50_ls20_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 50,
+    "maxls": 30,
+    "final_loss": 0.10910587757825851,
+    "model_filename": "losstrails/model_m50_ls30_f10000000.keras",
+    "loss_filename": "losstrails/loss_m50_ls30_f10000000.json"
+  },
+  {
+    "factr": 10000000.0,
+    "m": 50,
+    "maxls": 50,
+    "final_loss": 0.10907676815986633,
+    "model_filename": "losstrails/model_m50_ls50_f10000000.keras",
+    "loss_filename": "losstrails/loss_m50_ls50_f10000000.json"
+  }
+]

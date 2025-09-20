@@ -1,0 +1,218 @@
+[
+  {
+    "name": "m20_ls20_f1e03",
+    "m": 20,
+    "maxls": 20,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m20_ls20_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m20_ls20_f1e03.json"
+  },
+  {
+    "name": "m20_ls20_f1e05",
+    "m": 20,
+    "maxls": 20,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m20_ls20_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m20_ls20_f1e05.json"
+  },
+  {
+    "name": "m20_ls20_f1e07",
+    "m": 20,
+    "maxls": 20,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m20_ls20_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m20_ls20_f1e07.json"
+  },
+  {
+    "name": "m20_ls50_f1e03",
+    "m": 20,
+    "maxls": 50,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m20_ls50_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m20_ls50_f1e03.json"
+  },
+  {
+    "name": "m20_ls50_f1e05",
+    "m": 20,
+    "maxls": 50,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m20_ls50_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m20_ls50_f1e05.json"
+  },
+  {
+    "name": "m20_ls50_f1e07",
+    "m": 20,
+    "maxls": 50,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m20_ls50_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m20_ls50_f1e07.json"
+  },
+  {
+    "name": "m20_ls100_f1e03",
+    "m": 20,
+    "maxls": 100,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m20_ls100_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m20_ls100_f1e03.json"
+  },
+  {
+    "name": "m20_ls100_f1e05",
+    "m": 20,
+    "maxls": 100,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m20_ls100_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m20_ls100_f1e05.json"
+  },
+  {
+    "name": "m20_ls100_f1e07",
+    "m": 20,
+    "maxls": 100,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m20_ls100_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m20_ls100_f1e07.json"
+  },
+  {
+    "name": "m50_ls20_f1e03",
+    "m": 50,
+    "maxls": 20,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m50_ls20_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m50_ls20_f1e03.json"
+  },
+  {
+    "name": "m50_ls20_f1e05",
+    "m": 50,
+    "maxls": 20,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m50_ls20_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m50_ls20_f1e05.json"
+  },
+  {
+    "name": "m50_ls20_f1e07",
+    "m": 50,
+    "maxls": 20,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m50_ls20_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m50_ls20_f1e07.json"
+  },
+  {
+    "name": "m50_ls50_f1e03",
+    "m": 50,
+    "maxls": 50,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m50_ls50_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m50_ls50_f1e03.json"
+  },
+  {
+    "name": "m50_ls50_f1e05",
+    "m": 50,
+    "maxls": 50,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m50_ls50_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m50_ls50_f1e05.json"
+  },
+  {
+    "name": "m50_ls50_f1e07",
+    "m": 50,
+    "maxls": 50,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m50_ls50_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m50_ls50_f1e07.json"
+  },
+  {
+    "name": "m50_ls100_f1e03",
+    "m": 50,
+    "maxls": 100,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m50_ls100_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m50_ls100_f1e03.json"
+  },
+  {
+    "name": "m50_ls100_f1e05",
+    "m": 50,
+    "maxls": 100,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m50_ls100_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m50_ls100_f1e05.json"
+  },
+  {
+    "name": "m50_ls100_f1e07",
+    "m": 50,
+    "maxls": 100,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m50_ls100_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m50_ls100_f1e07.json"
+  },
+  {
+    "name": "m100_ls20_f1e03",
+    "m": 100,
+    "maxls": 20,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m100_ls20_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m100_ls20_f1e03.json"
+  },
+  {
+    "name": "m100_ls20_f1e05",
+    "m": 100,
+    "maxls": 20,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m100_ls20_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m100_ls20_f1e05.json"
+  },
+  {
+    "name": "m100_ls20_f1e07",
+    "m": 100,
+    "maxls": 20,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m100_ls20_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m100_ls20_f1e07.json"
+  },
+  {
+    "name": "m100_ls50_f1e03",
+    "m": 100,
+    "maxls": 50,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m100_ls50_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m100_ls50_f1e03.json"
+  },
+  {
+    "name": "m100_ls50_f1e05",
+    "m": 100,
+    "maxls": 50,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m100_ls50_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m100_ls50_f1e05.json"
+  },
+  {
+    "name": "m100_ls50_f1e07",
+    "m": 100,
+    "maxls": 50,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m100_ls50_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m100_ls50_f1e07.json"
+  },
+  {
+    "name": "m100_ls100_f1e03",
+    "m": 100,
+    "maxls": 100,
+    "factr": 1000.0,
+    "output_model_path": "losstrails/model_m100_ls100_f1e03.h5",
+    "loss_history_path": "losstrails/loss_m100_ls100_f1e03.json"
+  },
+  {
+    "name": "m100_ls100_f1e05",
+    "m": 100,
+    "maxls": 100,
+    "factr": 100000.0,
+    "output_model_path": "losstrails/model_m100_ls100_f1e05.h5",
+    "loss_history_path": "losstrails/loss_m100_ls100_f1e05.json"
+  },
+  {
+    "name": "m100_ls100_f1e07",
+    "m": 100,
+    "maxls": 100,
+    "factr": 10000000.0,
+    "output_model_path": "losstrails/model_m100_ls100_f1e07.h5",
+    "loss_history_path": "losstrails/loss_m100_ls100_f1e07.json"
+  }
+]

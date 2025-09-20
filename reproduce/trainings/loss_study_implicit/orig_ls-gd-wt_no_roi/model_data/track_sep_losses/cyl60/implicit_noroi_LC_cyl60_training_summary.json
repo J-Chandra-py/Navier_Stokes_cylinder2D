@@ -1,0 +1,15 @@
+{
+  "loss_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    60.0
+  ],
+  "final_loss": 0.02978292666375637,
+  "min_u_wake": -0.002244517207145691,
+  "model_filename": "model_data/track_sep_losses/cyl60/implicit_noroi_LC_cyl60.keras",
+  "u_plot": "model_data/track_sep_losses/cyl60/plots/implicit_noroi_LC_cyl60_u.png",
+  "streamline_plot": "model_data/track_sep_losses/cyl60/plots/implicit_noroi_LC_cyl60_streamlines.png"
+}

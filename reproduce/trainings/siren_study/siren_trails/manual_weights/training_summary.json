@@ -1,0 +1,53 @@
+[
+  {
+    "loss_weights": [
+      3,
+      10,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "final_loss": 0.2217235416173935,
+    "model_filename": "siren_trails/manual_weights/manual_lossset_01.keras",
+    "loss_filename": "siren_trails/manual_weights/manual_lossset_01_loss.json",
+    "loss_detail_filename": "siren_trails/manual_weights/manual_lossset_01_loss_detail.json",
+    "u_plot": "siren_trails/manual_weights/plots/manual_lossset_01_u.png",
+    "streamline_plot": "siren_trails/manual_weights/plots/manual_lossset_01_streamlines.png"
+  },
+  {
+    "loss_weights": [
+      10,
+      2,
+      3,
+      2,
+      2,
+      2,
+      6
+    ],
+    "final_loss": 0.2939756512641907,
+    "model_filename": "siren_trails/manual_weights/manual_lossset_02.keras",
+    "loss_filename": "siren_trails/manual_weights/manual_lossset_02_loss.json",
+    "loss_detail_filename": "siren_trails/manual_weights/manual_lossset_02_loss_detail.json",
+    "u_plot": "siren_trails/manual_weights/plots/manual_lossset_02_u.png",
+    "streamline_plot": "siren_trails/manual_weights/plots/manual_lossset_02_streamlines.png"
+  },
+  {
+    "loss_weights": [
+      10,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "final_loss": 0.12866704165935516,
+    "model_filename": "siren_trails/manual_weights/manual_lossset_03.keras",
+    "loss_filename": "siren_trails/manual_weights/manual_lossset_03_loss.json",
+    "loss_detail_filename": "siren_trails/manual_weights/manual_lossset_03_loss_detail.json",
+    "u_plot": "siren_trails/manual_weights/plots/manual_lossset_03_u.png",
+    "streamline_plot": "siren_trails/manual_weights/plots/manual_lossset_03_streamlines.png"
+  }
+]

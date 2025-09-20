@@ -1,0 +1,15 @@
+{
+  "loss_weights": [
+    5.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    5.0
+  ],
+  "final_loss": 0.03019734099507332,
+  "min_u_wake": 0.0025038570165634155,
+  "model_filename": "model_data/track_sep_losses/eqn5_cyl5/implicit_noroi_LC_eqn5cyl5.keras",
+  "u_plot": "model_data/track_sep_losses/eqn5_cyl5/plots/implicit_noroi_LC_eqn5cyl5_u.png",
+  "streamline_plot": "model_data/track_sep_losses/eqn5_cyl5/plots/implicit_noroi_LC_eqn5cyl5_streamlines.png"
+}
