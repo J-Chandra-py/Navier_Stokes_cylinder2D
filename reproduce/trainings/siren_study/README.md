@@ -1,12 +1,18 @@
-# Navier_Stokes_sphere2D
-Physics Informed Neural Network (PINN) for the 2D Navier-Stokes equation
+# SIREN Study
 
-This module implements the Physics Informed Neural Network (PINN) model for the 2D Navier-Stokes equation. The NS equations are given by (du/dx + dv/dy) = 0, u du/dx + v du/dy + dp/dx - (d^2u/dx^x + d^2u/dy^2) / Re = 0, u dv/dx + v dv/dy + dp/dy - (d^2v/dx^2 + d^2v/dy^2) / Re = 0. It represents the fluid flow over a cylinder inside a wind tunnel depending on the Reynolds number. The PINN model predicts u(x, y), v(x,y) and p(x,y) for the input (x, y).
+This folder contains scripts and resources for experiments with SIREN (Sinusoidal Representation Networks) architectures in PINN training.
 
-The effectiveness of PINNs is validated in the following works.
+## Contents
+- `optm_omega_search.ipynb`: Notebook for searching optimal omega values for SIREN activation functions.
+- `losswght_study.ipynb`: Notebook for studying the effect of different loss weightings in PINN training.
 
-+  M. Raissi, et al., Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations, arXiv: 1711.10561 (2017). (https://arxiv.org/abs/1711.10561)
+## SIREN Activation Function
 
-+  M. Raissi, et al., Physics Informed Deep Learning (Part II): Data-driven Discovery of Nonlinear Partial Differential Equations, arXiv: 1711.10566 (2017). (https://arxiv.org/abs/1711.10566)
+The SIREN activation function in `network.py` applies a scaled sine transformation to its input.
 
-It is based on hysics informed neural network (PINN) for the 1D Wave equation on https://github.com/okada39/pinn_wave
+## How to Use
+- Use the scripts and experiment subfolders to run and analyze SIREN-based PINN studies.
+
+## Notes
+- Results and models are saved in the corresponding subfolders.
+- Useful for studying the effect of SIREN architectures on PINN performance.
